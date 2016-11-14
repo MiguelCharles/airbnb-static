@@ -1,0 +1,68 @@
+/* Card design */
+.card{
+  background-size: cover;
+  color: white;
+  height: 300px;
+  opacity: 0.8;
+  position: relative;
+  margin: 20px auto;
+}
+
+.card:hover{
+  opacity: 1;
+}
+
+
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.card-avatar{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+.card-category {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   font-size: 20px;
+}
+
+.card-description{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-description h2{
+  font-size: 22px;
+  color: white;
+ }
+
+.card-description p{
+  font-size: 15px;
+  color: white;
+ }
+
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+}
+
+.container{
+  padding-top: 50px;
+}
+
+.wrapper-grey{
+  background-color: #EDEFF0;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
